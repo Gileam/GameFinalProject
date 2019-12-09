@@ -126,7 +126,7 @@ public class GameLoop extends Game implements Scene {
 			game.start = System.nanoTime();
 			game.pause = false;
 			game.paused = false;
-			game.wave = 62;
+			game.wave = 0;
 			game.score = 0;
 			game.spells = new java.util.LinkedList<>();
 			game.enemies = new java.util.LinkedList<>();
